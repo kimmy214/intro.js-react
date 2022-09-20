@@ -1,6 +1,6 @@
 {
-  "name": "intro.js-react",
-  "version": "0.6.0",
+  "name": "intro.js-react2",
+  "version": "0.1.0-alpha.0",
   "description": "Intro.js React Wrapper",
   "main": "lib/index.js",
   "types": "index.d.ts",
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HiDeoo/intro.js-react.git"
+    "url": "git+https://github.com/kimmy214/intro.js-react.git"
   },
   "keywords": [
     "intro.js",
@@ -63,9 +63,9 @@
   "author": "HiDeoo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HiDeoo/intro.js-react/issues"
+    "url": "https://github.com/kimmy214/intro.js-react/issues"
   },
-  "homepage": "https://github.com/HiDeoo/intro.js-react#readme",
+  "homepage": "https://github.com/kimmy214/intro.js-react#readme",
   "lint-staged": {
     "*.js": [
       "prettier --write",
