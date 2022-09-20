@@ -1,4 +1,4 @@
-# intro.js-react
+# intro.js-react2
 
 [![integration](https://github.com/HiDeoo/intro.js-react/actions/workflows/integration.yml/badge.svg)](https://github.com/HiDeoo/intro.js-react/actions/workflows/integration.yml) [![Coverage Status](https://coveralls.io/repos/github/HiDeoo/intro.js-react/badge.svg?branch=master)](https://coveralls.io/github/HiDeoo/intro.js-react?branch=master)
 
@@ -23,14 +23,14 @@ You can find a small example [here on codesandbox.io](https://codesandbox.io/emb
 Install using Npm *(don't forget to add the `--save` option if you're still using npm < 5)*:
 
 ```sh
-$ npm install intro.js-react
+$ npm install intro.js-react2
 ```
 
 Or Yarn:
 
 
 ```sh
-$ yarn add intro.js-react
+$ yarn add intro.js-react2
 ```
 
 Make sure to have [React](https://facebook.github.io/react/) & [Intro.js](http://introjs.com/) installed (they're peer dependencies) and the Intro.js CSS definitions [properly loaded](http://introjs.com/docs/getting-started/install) into your project.
@@ -46,7 +46,7 @@ import 'intro.js/introjs.css';
 Two component are available for both steps and hints:
 
 ```js
-import { Steps, Hints } from 'intro.js-react';
+import { Steps, Hints } from 'intro.js-react2';
 ```
 
 ## Steps

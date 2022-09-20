@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Component, isValidElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 
+import { isSSR } from '../../helpers/util';
 import * as introJsPropTypes from '../../helpers/proptypes';
 import * as introJsDefaultProps from '../../helpers/defaultProps';
 
@@ -205,6 +206,8 @@ export default class Steps extends Component {
    * @param  {number} stepIndex - The index of the step to update.
    */
   updateStepElement = stepIndex => {
+    if (isSSR) return;
+
     const element = document.querySelector(this.introJs._options.steps[stepIndex].element);
 
     if (element) {
